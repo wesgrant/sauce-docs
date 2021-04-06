@@ -77,15 +77,8 @@ java -jar runner.jar xcuitest --test DummyTestingApp-Runner.ipa /
 
 <TabItem value="espresso">
 
-```js
-./sauce-runner-virtual \
-   -u test_user \
-   -k 1234-1235 \
-   -f espresso \
-   -a ./helloworld.apk \
-   -t ./espresso-test-suite.apk \
-   -d 'deviceName=Samsung Galaxy S8 HD GoogleAPI Emulator,platformVersion=7.0' \
-   -d 'deviceName=Google Pixel GoogleAPI Emulator,platformVersion=7.1'
+```bash reference
+https://github.com/saucelabs-training/demo-espresso/blob/master/emulators/runner-ex1.sh#L6-L13
 ```
 
 </TabItem>
