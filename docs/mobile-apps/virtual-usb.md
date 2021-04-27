@@ -392,9 +392,12 @@ If you want to debug Safari then open Safari, go to the Safari **Menu bar** > **
 #### 2.0.0 (2021-04-27)
  * <a href="https://saucelabs-vusb.s3-eu-west-1.amazonaws.com/v2.0.0/virtual-usb-client.jar">Download client</a>
  * Improvements
-   * First release to support Unified Platform
-   * Support for connection to iOS devices
-   * Simplified CLI flags for data center selection
+   * First release to support Sauce Unified Platform
+   * Support for connection to Android and iOS devices
+   * Fetching debug symbols from the device is now more stable
+   * Attaching the debugger at launch is now possible
+ * Changes
+   * The client checks if it runs on Windows and displays an error message
 
 #### 1.x versions (Unsupported)
  * Please refer to our <a href="https://wiki.saucelabs.com/display/public/DOCSDEV/Virtual+USB+Changelog">legacy changelog</a>.
