@@ -387,6 +387,18 @@ If you want to debug Safari then open Safari, go to the Safari **Menu bar** > **
 
 <img src={useBaseUrl('img/virtual-usb/vusb-safari-debug.png')} alt="Virtual USB Energy Logs" />
 
+## Changelog
+
+#### 2.0.0 (2021-04-27)
+ * <a href="https://saucelabs-vusb.s3-eu-west-1.amazonaws.com/v2.0.0/virtual-usb-client.jar">Download client</a>
+ * Improvements
+   * First release to support Unified Platform
+   * Support for connection to iOS devices
+   * Simplified CLI flags for data center selection
+
+#### 1.x versions (Unsupported)
+ * Please refer to our <a href="https://wiki.saucelabs.com/display/public/DOCSDEV/Virtual+USB+Changelog">legacy changelog</a>.
+
 ## Legacy (TestObject)
 
 For instructions on using vUSB with [TestObject (Legacy RDC)](https://wiki.saucelabs.com/display/DOCS/Legacy+Real+Device+Platform+Resources), see [Virtual USB for TestObject](https://wiki.saucelabs.com/x/0yJWB). TestObject reaches end-of-life September 1, 2021.
